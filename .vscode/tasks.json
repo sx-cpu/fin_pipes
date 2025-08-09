@@ -10,7 +10,7 @@
 				"-std=c++17",
 				"-g",
 				"-Iinclude",
-				"-Iexternal",				
+				"-Iexternal",
 				"src/main.cpp",
 				"src/Matrix.cpp",
 				"src/SymmetricTridiagonalQR.cpp",
@@ -29,7 +29,6 @@
 				"kind": "build",
 				"isDefault": true
 			}
-			
 		}
 	]
 }
