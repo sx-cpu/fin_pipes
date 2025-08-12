@@ -15,7 +15,7 @@ private:
     std::vector<std::vector<double>> Q;  // 特征向量矩阵
     int n;
 
-    const double EPS = 1e-15;
+    const double EPS = 1e-45;
     const int MAX_ITER = 1000;
 
 public:
